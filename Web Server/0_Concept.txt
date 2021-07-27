@@ -1,0 +1,34 @@
+Template
+- Là mẫu văn bản được thiết kế, sẽ được xử lý để tạo ra nội dung mới (dữ liệu động)
+- Có nhiều ngôn ngữ để tạo ra 1 mẫu template: EJS, JADE
+
+API 
+- là một bộ các công cụ để xây dựng một ứng dụng phần mềm.
+- Trong ngữ cảnh web, thì các công cụ ở đây là các bộ url mà 
+chấp nhận và gửi dữ liệu qua giao thức HTTP và TCP/IP
+
+Endpoint
+- Là một URL cụ thể trong ứng dụng Web API
+- Một Endpoint(URL) có thể làm được nhiều thứ bằng việc lựa chọn
+cachs gọi theo giao thức HTTP: GET, POST, PUT,DELETE..
+- Xử lý phụ thuộc vào định dạng dữ liệu gửi đến Endpoint
+
+Routing
+- Là việc ánh xạ yêu cầu HTTP tới một tài nguyên phía server
+
+HTTP Method
+- Xác định loại yêu cầu khi client nói chuyện với server
+- Bao gồm: get, post, put, delete, head
+
+Middleware
+- Là đoạn mã chương trình nằm ở giữa 2 layer của ứng dụng có nhiệm vụ
+kết nối 2 layer lại với nhau
+- Trong trường hợp của Express, middlewware nằm ở giữa request và
+response
+
+GET: dữ liệu, các tham số nằm trong url
+POST: dữ liệu, các tham số nằm trong phần thân bản tin
+
+
+Restful
+- REST (Representational State Transfer) là một kiến trúc cho việc xây dựng các API

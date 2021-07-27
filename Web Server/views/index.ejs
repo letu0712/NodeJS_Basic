@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Hello EJS Template</title>
+    <link href="/assets/style.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Load CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+
+    </script>
+</head>
+
+<body>
+    <h1>Hello EJS</h1>
+    <form method="POST" action="/login">
+        Username: <input type="text" name="username"/>
+        Password: <input type="password" name="password"/>
+        <input type="submit" value="Gửi"/>
+    </form>
+
+    <script>
+        // Gửi dữ liệu động lên phía server qua thư viện jquery
+        $.ajax({
+            type:"POST",
+            url: "/loginjson",
+            data: JSON.stringify({ name:"Tu", age:22}),
+            dataType: "json",
+            contentType:"application/json"
+        });
+    </script>
+</body>
+
+</html>

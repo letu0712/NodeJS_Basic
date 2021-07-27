@@ -1,0 +1,28 @@
+Giao thức Protocol
+- Là một tập các quy tắc thỏa thuận ở hai phía khi giao tiếp với nhau
+- Cả Client và Server được lập trình để hiểu và sử dụng các luật đó
+- TCP/IP là một bộ giao thức truyền thông được cài đặt chồng giao thức 
+mà internet và hầu hết mạng máy tính chạy trên đó
+- Giao thức giống như việc 2 người ở 2 nước thỏa thuận sử dụng 1 ngôn ngữ
+chung để nói chuyện
+
+IP
+- Mỗi máy chủ được gọi là 1 HOST
+- IP (Internet Protocol) là địa chỉ để các thiết bị ngày nay nhận diện và 
+liên lạc với nhau trên mạng internet
+
+PORT 
+- Một HOST có thể có nhiều ứng dụng mạng chờ kết nối
+- Với một địa chỉ IP, chúng ta có thể xác định được một máy tính duy nhất 
+trên mạng, tuy nhiên khi một máy tính chạy nhiều dịch vụ khác nhau thì chúng
+phải được phân biệt bởi khái niệm PORT
+
+HTTP
+- Là một giao thức ứng dụng của bộ giao thức TCP/IP(các giao thức nền tảng của internet)
+- HTTP quy định một tập các quy tắc và định dạng dữ liệu trao đổi. Được sử dụng
+để phân phối dữ liệu (các tệp HTML, các file ảnh..) trên nền Web
+- Cổng mặc định là TCP 80, các cổng khác có thể được sử dụng
+
+MIME type (Multipurpose Internet Mail Extensions)
+- Một đặc tả để xác định kiểu dữ liệu được trao đổi là gì
+VD: application/json, text/html, image/jpeg..
